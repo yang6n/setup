@@ -21,7 +21,7 @@ npm install -g jshint
 sudo yum install -y rlwrap
 
 # Install emacs24
-sudo sudo install -y emacs
+sudo sudo install -y emacs emacs-el 
 
 # git pull and install dotfiles as well
 cd $HOME
