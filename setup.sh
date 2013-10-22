@@ -41,5 +41,5 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-# Install links & vim
-sudo apt-get -y install links vim
+# Install links & vim & screen
+sudo apt-get -y install links vim screen
