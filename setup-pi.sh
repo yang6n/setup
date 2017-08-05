@@ -8,6 +8,9 @@ sudo apt-get update
 # Install - git
 sudo apt-get install -y git-core
 
+git config --global user.email "yang6n@gmail.com"
+git config --global user.name "Jian Yang"
+
 # Install - npm
 sudo apt-get install -y npm
 
