@@ -8,9 +8,11 @@ sudo apt-get update
 # Install - git
 sudo apt-get install -y git-core
 
+# Configure - git
 git config --global user.email "yang6n@gmail.com"
 git config --global user.name "Jian Yang"
 git config --global push.default simple
+git config --global credential.helper 'store --file ~/.git-credentials'
 
 # Install - npm
 sudo apt-get install -y npm
