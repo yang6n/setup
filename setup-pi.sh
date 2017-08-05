@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~
+
 # Update apt-get repo
 sudo apt-get update
 
@@ -9,15 +11,27 @@ sudo apt-get install -y git-core
 # Install - npm
 sudo apt-get install -y npm
 
+# Install links & vim & screen
+sudo apt-get -y install links vim screen
+
+# Install - curl wget tree
+sudo apt-get install -y curl wget tree
+
+# Install - zsh
+sudo apt-get install -y zsh
+
+# Install - on-my-zsh
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Change default shell
+chsh -s $(which zsh)
+
 # Setup dot files
 git clone https://github.com/yang6n/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
-
-# Install links & vim & screen
-sudo apt-get -y install links vim screen
-
-# Install - curl wget tree
-sudo apt-get install -y curl wget tree
+ln -sb dotfiles/.vimrc .
+ln -sb dotfiles/.zshrc .
+ln -sb dotfiles/.zshrc_custom .
