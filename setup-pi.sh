@@ -24,6 +24,10 @@ sudo apt-get install -y curl wget tree
 # Install - zsh
 sudo apt-get install -y zsh
 
+# Install cfr
+wget http://www.benf.org/other/cfr/cfr_0_122.jar --output-document ~/applications/cfr/cfr_0_122.jar
+ln -sb ~/applications/cfr/cfr_0_122.jar ~/applications/cfr/cfr.jar
+
 # Install - on-my-zsh
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
