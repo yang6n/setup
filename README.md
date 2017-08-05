@@ -11,6 +11,8 @@ git clone https://github.com/yang6n/setup.git
 ./setup/setup.sh   
 ```
 
-
+```sh
+curl https://raw.githubusercontent.com/yang6n/setup/master/setup-pi.sh | bash
+```
 
 
