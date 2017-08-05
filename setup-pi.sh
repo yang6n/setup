@@ -10,6 +10,7 @@ sudo apt-get install -y git-core
 
 git config --global user.email "yang6n@gmail.com"
 git config --global user.name "Jian Yang"
+git config --global push.default simple
 
 # Install - npm
 sudo apt-get install -y npm
@@ -38,3 +39,4 @@ ln -sb dotfiles/.bashrc_custom .
 ln -sb dotfiles/.vimrc .
 ln -sb dotfiles/.zshrc .
 ln -sb dotfiles/.zshrc_custom .
+ln -sb ~/dotfiles/theme/jyang.zsh-theme ~/.oh-my-zsh/themes
