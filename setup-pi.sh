@@ -32,7 +32,7 @@ wget http://www.benf.org/other/cfr/cfr_0_122.jar --output-document ~/application
 ln -sb ~/applications/cfr/cfr_0_122.jar ~/applications/cfr/cfr.jar
 
 # Install - on-my-zsh
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Change default shell
 chsh -s $(which zsh)
