@@ -3,7 +3,7 @@
 cd ~
 
 # Update apt-get repo
-sudo apt-get dist-upgrade
+sudo apt-get dist-upgrade -y
 sudo apt-get update
 
 # Install - git
