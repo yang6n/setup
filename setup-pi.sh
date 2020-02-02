@@ -16,7 +16,7 @@ git config --global push.default simple
 git config --global credential.helper 'store --file ~/.git-credentials'
 
 # Install - npm
-sudo apt-get install -y npm
+# sudo apt-get install -y npm
 
 # Install links & vim & screen
 sudo apt-get -y install links vim screen
